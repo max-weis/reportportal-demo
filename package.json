@@ -1,0 +1,39 @@
+{
+    "scripts": {
+        "test": "jest"
+    },
+    "dependencies": {
+        "jest-html-reporter": "^3.5.0"
+    },
+    "devDependencies": {
+        "@reportportal/agent-js-jest": "^5.0.4"
+    },
+    "jest": {
+        "reporters": [
+            "default",
+            [
+                "@reportportal/agent-js-jest",
+                {
+                    "token": "00000000-0000-0000-0000-000000000000",
+                    "endpoint": "https://your.reportportal.server/api/v1",
+                    "project": "YourReportPortalProjectName",
+                    "launch": "YourLauncherName",
+                    "description": "YourDescription",
+                    "logLaunchLink": true,
+                    "attributes": [
+                        {
+                            "key": "YourKey",
+                            "value": "YourValue"
+                        },
+                        {
+                            "value": "YourValue"
+                        },
+                    ],
+                    "restClientConfig": {
+                        "timeout": 0
+                    }
+                }
+            ]
+        ],
+    }
+}
