@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="3">
+	<testsuite name="pet-service" tests="3" failures="0" errors="0" id="0" hostname="xubuntu" time="4.006" timestamp="2022-07-04T20:45:04+02:00">
+		<testcase name="TestNil" classname="pet-service" time="0.000"></testcase>
+		<testcase name="TestSomething" classname="pet-service" time="0.000"></testcase>
+		<testcase name="TestSum" classname="pet-service" time="4.000"></testcase>
+	</testsuite>
+</testsuites>
