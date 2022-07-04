@@ -1,6 +1,6 @@
 # ReportPortal Demo project
 
-A demo project to test reportportal.io. 
+A demo project to test [reportportal.io](https://github.com/reportportal/reportportal). 
 
 ## Start
 
@@ -9,11 +9,11 @@ To start the demo run: `docker compose up -d`
 Login with user: `default` and password: `1q2w3e`. 
 
 Following steps create a test-report:
-- Create a dashboard
-- Create a filter
+- create a dashboard
+- create a filter
     - cnt: report
-- Add a widget to the dashboard
-    - select the widhet type
+- add a widget to the dashboard
+    - select the widget type
     - select the filter
 
 ## Jest
