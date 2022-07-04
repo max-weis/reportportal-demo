@@ -14,10 +14,10 @@
             [
                 "@reportportal/agent-js-jest",
                 {
-                    "token": "00000000-0000-0000-0000-000000000000",
-                    "endpoint": "https://your.reportportal.server/api/v1",
-                    "project": "YourReportPortalProjectName",
-                    "launch": "YourLauncherName",
+                    "token": "b98a4a01-4b54-4383-8fae-d2d6db0f336e",
+                    "endpoint": "http://localhost:8080/api/v1",
+                    "project": "default_personal",
+                    "launch": "Jest",
                     "description": "YourDescription",
                     "logLaunchLink": true,
                     "attributes": [
@@ -27,13 +27,13 @@
                         },
                         {
                             "value": "YourValue"
-                        },
+                        }
                     ],
                     "restClientConfig": {
                         "timeout": 0
                     }
                 }
             ]
-        ],
+        ]
     }
 }
